@@ -4,7 +4,7 @@
   <h3 align="center">Christian Jai Vincent Alava's Exercise with MindArc</h3>
 
   <p align="center">
-    An assesment project is done with tech stack: Vanilla JS, HTML and CSS.
+    An assessment project is done with tech stack: Vanilla JS, HTML and CSS.
   </p>
 </p>
 
@@ -23,7 +23,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project is for an assesment at MindArc.
+This project is for an assessment for MindArc.
 
 
 ### Built With
@@ -42,10 +42,15 @@ To get a copy up and running, Please follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+Please install the follow dependencies:
 * npm
 ```sh
 npm install npm@latest -g
+```
+
+* gulp
+```sh
+npm install gulp -g
 ```
 
 ### Installation
