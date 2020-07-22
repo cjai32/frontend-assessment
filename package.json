@@ -1,0 +1,26 @@
+{
+  "name": "cj-fe-asses",
+  "version": "1.0.0",
+  "description": "Christian Jai Vincent Alava assesment for MindArc",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp",
+    "compile::sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "jshint": "^2.11.1",
+    "node-sass": "^4.11.0"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}

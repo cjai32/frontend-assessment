@@ -1,0 +1,35 @@
+@media (max-width: 500px) {
+body{
+   
+    .main-header{
+        background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../images/600x600.png');
+        background-size: contain;
+        text-align: center;
+        height:410px;
+        &__subj{
+            font-size:3.5rem;
+            line-height: 1.5;
+
+        }
+        &__desc{
+            font-size:1.5rem;
+            line-height: 1.8;
+
+        }
+    }
+    .section-listing{
+        .cards-container{
+            display:block;
+            
+            .card{
+                width: 75%;
+                margin: 40px auto;
+                .read-more{
+
+                }
+            }
+        }
+    }
+
+}
+}

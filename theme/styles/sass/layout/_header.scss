@@ -1,0 +1,25 @@
+.main-header{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../images/1920x650.png');
+    background-position: center;
+    height: 650px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: $color-white;
+
+    &__subj{
+        font-size: 5rem;
+        font-weight: 700;
+        margin:0;
+        padding:0;
+    }
+    &__desc{
+        font-size: 40px;
+        margin: 0;
+        padding: 15px 0 5px 0;
+        letter-spacing: 2px;
+
+    }
+
+}

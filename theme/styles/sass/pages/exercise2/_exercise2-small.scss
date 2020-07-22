@@ -1,0 +1,54 @@
+@media (max-width: 700px) {
+.data-wrapper{
+
+    &__tabs{
+        display:none;
+    }
+   
+    &__container{
+        &__tabs{
+            transition: max-height 600ms, opacity 300ms;
+            -webkit-transition: max-height 600ms, opacity 300ms;
+            
+            p{
+              
+            }
+            &.is-visible{
+                transition: max-height 0, opacity 300ms;
+                -webkit-transition: max-height 0, opacity 300ms;
+            }
+            
+        }
+        .tab_drawer_heading{
+            color: $color-white;
+            padding: 10px 18px;
+            display: block;
+            margin: 1px 0 0 0;
+
+            &:hover{
+                color:#3a3737;
+                background: lightgray;
+                border: 3px solid #FFFFFF;
+                box-sizing: border-box;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+                border-radius: 10px;
+                cursor:pointer;
+            }
+            &.d_active{
+                color:$color-white;
+                background: $color-gray-dark-2;
+                border: 3px solid $color-white;
+                box-sizing: border-box;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+                border-radius: 10px;
+                cursor:pointer;
+
+            }
+        }
+        
+       
+
+    }
+ 
+}
+}

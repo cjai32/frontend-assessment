@@ -1,0 +1,97 @@
+.data-wrapper{
+    width: 85%;
+    display:flex;
+    justify-content: center;
+    margin:0 auto;
+    padding-top:130px;
+    &__tabs{
+
+        &__items{
+            text-decoration:none;
+            list-style-type: none;
+            padding: 0;
+            li {
+          
+                padding: 10px 0px;
+                a{
+                    color: $color-black;
+                    display: block;
+                    position: relative;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 24px;
+                    padding: 10px 40px;
+                    text-decoration: none;
+
+                    &.active{
+                        color:$color-white;
+                        background: $color-gray-dark-2;
+                        border: 3px solid $color-white;
+                        box-sizing: border-box;
+                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+                        border-radius: 10px;
+                        
+                    }
+                }
+                
+                
+                
+            }
+        }
+
+    }
+   
+    &__container{
+        width:calc(70% + 20px);
+        margin-left:-20px;
+        background-color:$color-gray-dark;
+        border-radius: 13px;
+        -webkit-box-shadow: 10px 10px 0px 0px #F2F0F0;
+        -moz-box-shadow: 10px 10px 0px 0px #F2F0F0;
+        box-shadow: 10px 10px 0px 0px #F2F0F0;
+        border:2px solid $color-white;
+                    
+                  
+
+        &__tabs{
+            width: 80%;
+            margin: 0 auto;
+            color:white;
+            overflow: hidden;
+            max-height: 0;
+            opacity: 0;
+            transition: none;
+            
+            p{
+                line-height: 1.5;
+                letter-spacing: 2px;
+            }
+            &.is-visible{
+                display:block;
+                max-height: 800px;
+                opacity: 1;
+                transition: none;
+               
+            }
+            li{
+                text-decoration:none;
+                list-style-type: none;
+                letter-spacing: 2px;
+                line-height: 1.5;
+            }
+            
+        }
+        &.active{
+            display:block;
+        }
+        .tab_drawer_heading{
+
+            display:none;
+        }
+        
+       
+
+    }
+ 
+}
