@@ -25,6 +25,10 @@
 
 This project is for an assessment for MindArc.
 
+Inside, You can see the completed design and conditions for Exercise 1 and 2, Including the solution to the banana problem which i Included as an extra tab/accordion.
+
+All Javascript is plain JS, Also used Fetch API to get data from `data.json`
+
 
 ### Built With
 
